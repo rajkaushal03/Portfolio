@@ -26,13 +26,6 @@ const services = [
       "Need help mastering data structures and algorithms? I offer expert guidance in C++ and Python to elevate your problem-solving skills. Let’s tackle complex challenges and enhance your coding prowess!",
     href: "/contact",
   },
-  {
-    num: "04",
-    title: "DataBase",
-    description:
-      "Need help mastering data structures and algorithms? I offer expert guidance in C++ and Python to elevate your problem-solving skills. Let’s tackle complex challenges and enhance your coding prowess!",
-    href: "/contact",
-  },
 ];
 
 import { motion } from "framer-motion";
