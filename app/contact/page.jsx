@@ -72,7 +72,6 @@ const Contact = () => {
                     <SelectItem value="est">Web Development</SelectItem>
                     <SelectItem value="cst">Machine Learning</SelectItem>
                     <SelectItem value="mst">DSA</SelectItem>
-                    <SelectItem value="ast">Database</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>
