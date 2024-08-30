@@ -1,10 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
-
+import Link from "next/link";
 import Socials from "@/components/Socials";
 import Photos from "@/components/Photos";
-import Stats from "@/components/Stats"; 
+import Stats from "@/components/Stats";
 
 const Home = () => {
   return (
@@ -25,14 +25,16 @@ const Home = () => {
 
             {/* btn and social */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
-                variant="outline"
-                size="lg"
-                className="hover:text-white uppercase flex items-center gap-2"
-              >
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
-              </Button>
+              <Link href="https://drive.google.com/file/d/1DPzbpx7mZD8YLnb0-1iNoo5XwgXuk7X_/view?usp=drive_link">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="hover:text-white uppercase flex items-center gap-2"
+                >
+                  <span>Download CV</span>
+                  <FiDownload className="text-xl" />
+                </Button>
+              </Link>
               <div className="mb-8 xl:mb-0">
                 <Socials
                   containerStyles="flex gap-6"
